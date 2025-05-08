@@ -1,39 +1,47 @@
-body {
-    font-family: 'Roboto', sans-serif;
+/* Reset some default browser styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
 }
 
 header {
     background-color: #4CAF50;
     color: #fff;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    margin: 0;
     font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
 header p {
-    margin: 5px 0 0;
     font-size: 1.2em;
 }
 
 section {
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
     background-color: #fff;
     border-radius: 8px;
+    max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    margin-top: 0;
     font-size: 2em;
-    color: #333;
+    margin-bottom: 10px;
+    color: #4CAF50;
 }
 
 ul {
@@ -67,12 +75,21 @@ a:hover {
 }
 
 .job h3 {
-    margin: 0;
     font-size: 1.5em;
     color: #333;
 }
 
 .job p {
-    margin: 5px 0;
     font-size: 1.1em;
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
